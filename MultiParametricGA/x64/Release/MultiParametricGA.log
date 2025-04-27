@@ -1,0 +1,53 @@
+﻿  main.cpp
+C:\Users\drevazyan\ThesisWork\MP_GA_placement\MultiParametricGA\MultiParametricGA\GeoJSONExporter.h(36,1): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\include\xmemory(673,1): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\include\vector(813): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,TargetType&,TargetType&>(_Alloc &,_Objty *const ,TargetType &,TargetType &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Coordinate>,
+              _Ty=Coordinate,
+              TargetType=size_t,
+              _Objty=Coordinate
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\include\vector(824): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,TargetType&,TargetType&>(_Alloc &,_Objty *const ,TargetType &,TargetType &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Coordinate>,
+              _Ty=Coordinate,
+              TargetType=size_t,
+              _Objty=Coordinate
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\include\vector(800): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<TargetType&,TargetType&>(TargetType &,TargetType &)' being compiled
+          with
+          [
+              _Ty=Coordinate,
+              TargetType=size_t
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\include\vector(806): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<TargetType&,TargetType&>(TargetType &,TargetType &)' being compiled
+          with
+          [
+              _Ty=Coordinate,
+              TargetType=size_t
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\include\vector(886): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<TargetType&,TargetType&>(TargetType &,TargetType &)' being compiled
+          with
+          [
+              _Ty=Coordinate,
+              TargetType=size_t
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\include\vector(888): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<TargetType&,TargetType&>(TargetType &,TargetType &)' being compiled
+          with
+          [
+              _Ty=Coordinate,
+              TargetType=size_t
+          ]
+C:\Users\drevazyan\ThesisWork\MP_GA_placement\MultiParametricGA\MultiParametricGA\Chromosome.h(87): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<size_t&,size_t&>(size_t &,size_t &)' being compiled
+          with
+          [
+              _Ty=Coordinate
+          ]
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 4036 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MultiParametricGA.vcxproj -> C:\Users\drevazyan\ThesisWork\MP_GA_placement\MultiParametricGA\x64\Release\MultiParametricGA.exe

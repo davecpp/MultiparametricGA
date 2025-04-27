@@ -1,0 +1,42 @@
+{
+    "ga": {
+        "population_size": 100,
+        "max_iterations": 200,
+        "convergence_threshold": 0.001,
+        "filter_coefficient": 0.4,
+        "mutation_probability": 0.1,
+        "drc_filter_percentage": 0.1,
+        "drc_check_interval": 10,
+        "use_specialized_populations": true,
+        "specialized_evolutions": 20,
+        "specialized_best_percentage": 0.2,
+        "specialized_random_percentage": 0.05
+    },
+    "fitness": {
+        "weights": {
+            "wire_length": 1.0,
+            "thermal": 0.5,
+            "drc": 2.0,
+            "power": 0.3,
+            "parasitic": 0.2
+        },
+        "thermal": {
+            "max_allowed_temp": 100.0,
+            "ambient_temp": 25.0,
+            "thermal_conductivity": 150.0,
+            "power_density": 0.1
+        },
+        "power": {
+            "cell_power": 0.1,
+            "wire_capacitance": 0.02,
+            "voltage_factor": 1.0,
+            "frequency": 1.0,
+            "leakage_factor": 0.05
+        }
+    },
+    "drc": {
+        "min_distance": 2,
+        "overlap_penalty": 10.0,
+        "distance_penalty": 5.0
+    }
+}
